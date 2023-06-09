@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Robot', sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/Juglebackgroud.jpg);
+}
+
+
+  
+.container{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+}
+
+.h1{
+    color: brown;
+    text-decoration: underline;
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+}
+
+.col{
+    flex-basis: 50%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 100%;
+}
+
+h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+p{
+    color:#fff;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.button{
+    width: 100%;
+    color: rgb(115, 75, 5);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+h5{
+    color:#fff;
+    text-shadow: 0 0 5px #999;
+}
+
+
+
